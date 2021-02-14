@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wakeupFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="기상"/>
+    <item
+        android:id="@+id/routineFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="루틴"/>
+    <item
+        android:id="@+id/togetherFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="친구"/>
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="설정"/>
+
+
+
+</menu>
