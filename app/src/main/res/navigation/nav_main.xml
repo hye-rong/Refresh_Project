@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_main.xml"
+    app:startDestination="@id/wakeupFragment">
+
+    <fragment
+        android:id="@+id/wakeupFragment"
+        android:name="com.daerong.refresh_project.WakeupFragment"
+        android:label="WakeupFragment" >
+        <action
+            android:id="@+id/action_wakeupFragment_to_routineFragment"
+            app:destination="@id/routineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/routineFragment"
+        android:name="com.daerong.refresh_project.RoutineFragment"
+        android:label="RoutineFragment" >
+        <argument
+            android:name="param_count"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/togetherFragment"
+        android:name="com.daerong.refresh_project.TogetherFragment"
+        android:label="TogetherFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.daerong.refresh_project.SettingFragment"
+        android:label="SettingFragment" /><action android:id="@+id/action_global_routineFragment" app:destination="@id/routineFragment"/>
+</navigation>
